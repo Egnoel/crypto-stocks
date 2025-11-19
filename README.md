@@ -1,16 +1,41 @@
-# React + Vite
+# Crypto Stocks Tracker
+A React application built with Vite that tracks real-time cryptocurrency prices and market data using the CoinGecko API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies Used
+- React
+- Vite
+- React Router
+- Recharts
+- CoinGecko API
 
-Currently, two official plugins are available:
+## Features
+- Real-time cryptocurrency price tracking
+- Detailed coin information pages
+- Interactive charts displaying price trends
+- Responsive design for mobile and desktop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/crypto-stocks.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd crypto-stocks
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and go to `http://localhost:5173` to view the application.
 
-## React Compiler
+## Preview
+![Crypto Stocks Tracker Preview](/public/images/page.png)
+![Crypto Stocks Tracker Detail Page Preview](/public/images/info.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## License
+This project is licensed under the MIT License.

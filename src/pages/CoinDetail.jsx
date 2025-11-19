@@ -4,6 +4,7 @@ import { fetchChartData, fetchCoinData } from '../api/coinGecko';
 import { formatMarketCap, formatPrice } from '../utils/formatter';
 import {
   CartesianGrid,
+  Line,
   LineChart,
   ResponsiveContainer,
   Tooltip,
